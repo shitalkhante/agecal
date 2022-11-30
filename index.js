@@ -30,7 +30,7 @@ function cal(){
         }
 
     const currentDate =new Date();
-    const dob = new Date(`${parseInt(date)}/${parseInt(month)}/${parseInt(year)}`);
+    const dob = new Date(`${parseInt(month)}/${parseInt(date)}/${parseInt(year)}`);
     
         const diff = currentDate-dob;
         const months = Math.floor(diff/(1000*60*60*24*30.5));
